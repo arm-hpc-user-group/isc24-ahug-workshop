@@ -4,8 +4,6 @@ to be held in conjunction with ISC High Performance 2024 (https://www.isc-hpc.co
 
 Thursday, May 16, 2024 · 4 hr. (Europe/Berlin)
 
-![Alt text](hamburg1.JPG "Optional title")
-
 ### Date and Time
 16th May 2024<br>
 9:00AM-13:00PM 
