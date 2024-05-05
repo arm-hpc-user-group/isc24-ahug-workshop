@@ -7,7 +7,7 @@ The 2024 Arm HPC User Group (AHUG) Workshop is held in conjunction with [**ISC H
 
 [**Join the AHUG Slack channel!**](https://join.slack.com/t/a-hug/shared_invite/zt-25r69qm2u-hhEkbN7terYpw7K3W2k6Eg)
 
-## Timetable and agenda 
+## Timetable and Agenda 
 
 <table>
 <colgroup>
@@ -104,27 +104,22 @@ The 2024 Arm HPC User Group (AHUG) Workshop is held in conjunction with [**ISC H
 ## Abstracts
 
 ### Performance analyses of benchmark applications on different A64FX architectures
-**Speaker**: Seydou Ba (RIKEN R-CCS)
-
+**Speaker**: Seydou Ba (RIKEN R-CCS)<br>
 _Modern supercomputers are increasingly complex and are utilizing faster and denser core count processors per node. This work focuses on the performance comparison of different node architectures of Fujitsu's A64FX, namely the FX1000 (Fugaku) and two versions of the FX700. The architectures differ mainly in that, the FX1000 has 48cores per node and uses the TofuD interconnect, while the FX700s use Infiniband and one version has 48cores per node and the other has 24cores per node at a higher frequency.  We are monitoring performance with profilers and analysis tools to conduct detailed performance studies with key benchmark applications.  Furthermore, we aim to expend this study with the purpose of  analyzing hardware option for interconnections leaning toward photonics design for next-gen supercomputers._
 
 ### NVIDIA Grace Superchip Early Evaluation for HPC Applications 
-**Speaker**: Fabio Banchelli (BSC)
-
+**Speaker**: Fabio Banchelli (BSC)<br>
 _Arm-based system in HPC are a reality since more than a decade. However, when a new chip enters the market always implies challenges, not only at ISA level, but also with regards to the SoC integration, the memory subsystem, the board integration, the node interconnection, and finally the OS and all layers of the system software (compiler and libraries). Guided by the procurement of an NVIDIA Grace HPC cluster within the deployment of MareNostrum 5, and emulating the approach of a scientist who needs to migrate its scientific research to a new HPC system, we evaluated five complex scientific applications on engineering sample nodes of NVIDIA Grace CPU Superchip and NVIDIA Grace Hopper Superchip (CPU-only). We report intra-node and inter-node scalability and early performance results showing a speed-up between 1.3x and 4.28x for all codes when compared to the current generation of MareNostrum 4 powered by Intel Skylake CPUs._
 
 ### Accelerating Hierarchical Collective Communication on next-gen ARM architectures
-**Speaker**: Alon Zameret (Toga Networks - Huawei)
-
+**Speaker**: Alon Zameret (Toga Networks - Huawei)<br>
 _In large-scale distributed computing, collective communication often poses a bottleneck due to the latency and bandwidth limitations of modern networks. In this work we propose an innovative hierarchical approach to accelerate collective communication, based on multiple levels of communication aggregation (intra-node, inter-node, inter-rack). Assigning multiple representatives at each level enables communication and data partitioning for alleviating latency/bandwidth bounds in HPC and AI applications. Leveraging the SIMD extensions (e.g. SVE) offered in next-generation ARM architectures further improves performance by optimizing memory copy and reduction operations. The resulting communication component, MLMR, demonstrates up to 5x reduction of AllReduce collective communication on an ARM cluster with more than 12k cores. Further work is underway to introduce payload pipelining in order to overlap inter-level communication, and enhance performance._
 
 
 ### Running Arm Accelerated Solutions for Engineering Workflows in the Cloud with Rescale
-**Speaker**: Sam Zakrzewski (Rescale)
-
+**Speaker**: Sam Zakrzewski (Rescale)<br>
 _As computational demands in engineering continue to rise, leveraging cloud computing resources becomes increasingly imperative. This presentation delves into the optimization and efficiency gains achieved by running engineering workflows in the cloud on Arm-based hardware through Rescale's platform. Case studies and demonstrations illustrate how Rescale's platform enables seamless migration of engineering workflows to Arm-based cloud instances, unlocking unparalleled performance and cost-effectiveness. Key topics covered include the technical considerations of transitioning to Arm architecture, performance benchmarks and cost comparisons illustrating the economic benefits of cloud-based Arm computing. Attendees will gain a comprehensive understanding of how adopting Arm accelerated solutions for engineering workflows on Rescale's platform empowers organizations to tackle complex simulations with unprecedented efficiency, driving innovation and competitiveness._
 
 ### Extending Arm's Reach by Going EESSI
-**Speaker**: Kenneth Hoste (University of Genth)
-
+**Speaker**: Kenneth Hoste (University of Genth)<br>
 _In the European Environment for Scientific Software Installation (EESSI) community project (https://eessi.io), we provide a stack of optimized scientific software installations that work on any Linux system, regardless of whether it is powered by Intel, AMD, or Arm CPUs (soon also RISC-V). This effort is currently funded through the EuroHPC Centre-of-Excellence MultiXscale (https://multixscale.eu). In this talk, we will share our experiences with building a wide range of scientific applications, libraries, and required dependencies for different Arm microarchitectures. We encountered (and fixed) various problems along the way, especially when targetting Arm Neoverse V1, and when running software test suites. Additionally, we will demonstrate how you can get access in a matter of minutes to a rich set of optimized software installations for Arm systems, including Raspberry PI's, cloud instances powered by an Arm CPU, and Arm-based EuroHPC supercomputers like Deucalion and JUPITER._
