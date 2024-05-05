@@ -1,6 +1,6 @@
 # Arm HPC User Group Workshop @ ISC24
 
-The 2024 Arm HPC User Group (AHUG) Workshop is held in conjunction with ISC High Performance 2024 (https://www.isc-hpc.com/) in Hamburg, Germany. 
+The 2024 Arm HPC User Group (AHUG) Workshop is held in conjunction with [**ISC High Performance 2024**](https://www.isc-hpc.com/) in Hamburg, Germany. 
 
 **Date & Time**: May 16th, 2024 @ 9:00am - 1:00pm <br>
 **Location**: Hall Y10 - 2nd floor, Congress Center Hamburg (CCH), Germany
