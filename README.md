@@ -85,18 +85,16 @@ The 2024 Arm HPC User Group (AHUG) Workshop is held in conjunction with [**ISC H
 <tr>
 <td markdown="span">12:20-12:40</td>
 <td markdown="span">20m</td>
-<td markdown="span"><font size="-2">Silicon Update</font><br>
-**NVIDIA Grace Superchip**</td>
+<td markdown="span">**NVIDIA Grace Superchip**</td>
 <td markdown="span">Filippo Spiga</td>
 <td markdown="span">NVIDIA</td>
 </tr>
 <tr>
 <td markdown="span">12:40-13:00</td>
 <td markdown="span">20m</td>
-<td markdown="span"><font size="-2">Silicon Update</font><br>
-**AWS Graviton 3/3E/4**</td>
-<td markdown="span">TBD</td>
-<td markdown="span">AWS</td>
+<td markdown="span">**EDF R&D Code_Saturne performance on AWS HPC7g instance**</td>
+<td markdown="span">Conrad Hillairet</td>
+<td markdown="span">Arm Ltd & AWS</td>
 </tr>
 </tbody>
 </table>
